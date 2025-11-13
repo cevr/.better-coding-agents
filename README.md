@@ -1,3 +1,24 @@
+# Better Coding Agents
+
+This is a really dumb but incredibly effective way to get better coding agent responses for libraries and frameworks.
+
+Basically you just clone the entire source repo for the library/framework as a git subtree, and then you can ask the agent to search the codebase for the answer to a question, and it works really well.
+
+This project has this setup for:
+
+- svelte & sveltekit
+- effect.ts
+- neverthrow
+
+## getting started
+
+1. clone the repo into your home directory, it should be called `~/.better-coding-agents`
+2. copy paste the following command into opencode (while it's open in your home directory)
+
+And now you have slash commands for these libraries/frameworks in opencode and cursor. as well as a special agent in opencode that can search the codebase for the answer to a question.
+
+_I also included the color theme I like ported to opencode as well lol_
+
 ````md
 # Init Command
 
@@ -18,13 +39,13 @@ mkdir -p ~/.opencode/command
 mkdir -p ~/.opencode/themes
 
 # Copy agent files
-cp -u OPENCODE_ASSETS/agent/*.md ~/.opencode/agent/
+cp -u ./.better-coding-agents/OPENCODE_ASSETS/agent/*.md ~/.opencode/agent/
 
 # Copy command files
-cp -u OPENCODE_ASSETS/command/*.md ~/.opencode/command/
+cp -u ./.better-coding-agents/OPENCODE_ASSETS/command/*.md ~/.opencode/command/
 
 # Copy theme files
-cp -u OPENCODE_ASSETS/themes/*.json ~/.opencode/themes/
+cp -u ./.better-coding-agents/OPENCODE_ASSETS/themes/*.json ~/.opencode/themes/
 ```
 
 ### 2. Setup Cursor Configuration
@@ -36,7 +57,7 @@ Create the Cursor commands directory if it doesn't exist and copy all files from
 mkdir -p ~/.cursor/commands
 
 # Copy cursor command files
-cp -u CURSOR_ASSETS/commands/*.md ~/.cursor/commands/
+cp -u ./.better-coding-agents/CURSOR_ASSETS/commands/*.md ~/.cursor/commands/
 ```
 
 ## Notes
