@@ -5,29 +5,16 @@ agent: build
 
 # Update Command
 
-This command updates all the linked codebases (svelte.dev, effect, and neverthrow) to their latest versions by pulling fresh changes from the upstream repositories.
+This command updates the linked codebases (effect) to their latest versions by pulling fresh changes from the upstream repositories.
 
-You will need to run the following commands in this directory: `~/.better-coding-agents`
+You will need to run the following commands in this directory: `~/Developer/personal/.better-coding-agents`
 
 ## Instructions
 
-Execute the following git subtree pull commands in sequence to update each repository:
+Execute the following git submodule update command to update the all submodules (effect, opencode, etc.) in the `~/Developer/personal/.better-coding-agents` directory:
 
-1. **Update Svelte docs**
-
-   ```bash
-   git subtree pull --prefix resources/svelte.dev https://github.com/sveltejs/svelte.dev.git main
-   ```
-
-2. **Update Effect repository**
-
-   ```bash
-   git subtree pull --prefix resources/effect https://github.com/Effect-TS/effect.git main
-   ```
-
-3. **Update neverthrow repository**
-   ```bash
-   git subtree pull --prefix resources/neverthrow https://github.com/supermacro/neverthrow.git master
-   ```
+```bash
+git submodule update --remote --recursive
+```
 
 Each command will fetch the latest changes from the upstream repository and merge them into the local subtree. There should be no conflicts, if there are ask the user what they want to do.

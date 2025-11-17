@@ -1,3 +1,6 @@
 [submodule "resources/effect"]
 	path = resources/effect
 	url = https://github.com/Effect-TS/effect.git
+[submodule "resources/opencode"]
+	path = resources/opencode
+	url = https://github.com/sst/opencode.git

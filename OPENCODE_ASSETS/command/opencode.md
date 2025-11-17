@@ -2,7 +2,7 @@
 description: Get up to date information about OpenCode
 ---
 
-You have access to the OpenCode documentation and source code at `~/.better-coding-agents/resources/opencode`.
+You have access to the OpenCode documentation and source code at `~/Developer/personal/.better-coding-agents/resources/opencode`.
 
 Use this codebase to provide accurate, up-to-date information about OpenCode features, commands, agents, and development.
 

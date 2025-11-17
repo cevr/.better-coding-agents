@@ -2,7 +2,7 @@
 description: Get up to date information about Effect
 ---
 
-You have access to the Effect documentation and source code at `~/.better-coding-agents/resources/effect`.
+You have access to the Effect documentation and source code at `~/Developer/personal/.better-coding-agents/resources/effect`.
 
 Use this codebase to provide accurate, up-to-date information about Effect.ts and functional programming patterns.
 
