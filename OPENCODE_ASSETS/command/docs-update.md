@@ -17,4 +17,4 @@ Execute the following git submodule update command to update the all submodules 
 git submodule update --remote --recursive
 ```
 
-Each command will fetch the latest changes from the upstream repository and merge them into the local subtree. There should be no conflicts, if there are ask the user what they want to do.
+This command will fetch the latest changes from the upstream repository and merge them into the local subtree. There should be no conflicts, if there are, ask the user what they want to do.

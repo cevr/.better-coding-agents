@@ -4,3 +4,9 @@
 [submodule "resources/opencode"]
 	path = resources/opencode
 	url = https://github.com/sst/opencode.git
+[submodule "resources/mongo"]
+	path = resources/mongo
+	url = https://github.com/mongodb/node-mongodb-native.git
+[submodule "resources/opentui"]
+	path = resources/opentui
+	url = https://github.com/sst/opentui.git

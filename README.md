@@ -6,10 +6,10 @@ Basically you just clone the entire source repo for the library/framework as a g
 
 This project has this setup for:
 
-- svelte & sveltekit
+
 - effect.ts
-- neverthrow
 - opencode
+- mongodb
 
 ## getting started
 
